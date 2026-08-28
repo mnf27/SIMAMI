@@ -1,59 +1,234 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# SIMAMI – Internal Quality Audit Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+SIMAMI (Sistem Informasi Manajemen Audit Mutu Internal) is a web-based
+application developed to support the management and monitoring of
+Internal Quality Audits (AMI) for the D3 Information Technology Program
+at Politeknik Negeri Malang PSDKU Lumajang.
 
-## About Laravel
+This project was developed as a final academic project for the
+D3 Information Technology program.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Project Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+SIMAMI provides a centralized system for managing the Internal Quality
+Audit process, from audit creation and finding management to follow-up,
+review, and validation.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The application implements role-based access control so that each user
+can access features according to their responsibilities in the audit
+process.
 
-## Learning Laravel
+The system is designed to help make audit activities more structured,
+traceable, and easier to monitor.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Preview
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Assessor Dashboard
 
-## Laravel Sponsors
+<img width="1908" height="1002" alt="Dashboard Asesor (SIMAMI)" src="https://github.com/user-attachments/assets/1459cd80-155a-4e5e-a62d-cb9ae9dcdecf" />
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Audit Management
 
-### Premium Partners
+<img width="1908" height="1002" alt="Audit Asesor (SIMAMI)" src="https://github.com/user-attachments/assets/2470e708-6f3f-408f-8ff5-f25494786641" />
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### Finding Review & Validation
 
-## Contributing
+<img width="1908" height="1002" alt="Review-Validation Asesor (SIMAMI)" src="https://github.com/user-attachments/assets/fb0df65e-5b3f-4fc6-8a9d-f188fcc6ebb9" />
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Assessee Dashboard
 
-## Code of Conduct
+<img width="1908" height="1002" alt="Dashboard Asesi (SIMAMI)" src="https://github.com/user-attachments/assets/6c2a3c6e-323a-4441-bdf5-25a21c80df2d" />
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Audit Findings
 
-## Security Vulnerabilities
+<img width="1908" height="1002" alt="Temuan audit Asesi (SIMAMI)" src="https://github.com/user-attachments/assets/a1f4b610-741b-4624-9336-bcc372ce5dc9" />
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Features
 
-## License
+### Authentication & Authorization
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- User authentication
+- Role-based access control
+- Role-specific routes and permissions
+- Access restriction for unauthorized users
+
+### Audit Management
+
+- Audit period management
+- Audit creation and management
+- Unit management
+- Auditor and auditee assignment
+- Audit progress monitoring
+- Audit status tracking
+
+### Finding Management
+
+- Audit finding management
+- Finding assignment to responsible users
+- Follow-up action management
+- Supporting evidence submission
+- Open and closed finding tracking
+- Finding review and validation
+
+### Dashboard & Monitoring
+
+- Role-specific dashboards
+- Total audit monitoring
+- Total finding monitoring
+- Open and closed finding statistics
+- Audit progress monitoring
+- Recent audit and finding information
+- Audit trend monitoring
+
+### Data & Document Management
+
+- Excel template support
+- Excel data import
+- Excel data export
+- Final audit document management
+- PDF document upload and download
+
+### Notifications
+
+- Audit-related notifications
+- Notification status tracking
+- Notification detail and read functionality
+
+## Audit Workflow
+
+SIMAMI supports an audit workflow from audit creation to finding
+validation:
+
+1. An auditor creates and manages an audit.
+2. Audit findings are recorded in the system.
+3. Findings are assigned to responsible users.
+4. Responsible users provide follow-up actions and supporting evidence.
+5. Auditors review the submitted follow-up.
+6. Findings are validated and their status is updated.
+
+This workflow provides a structured process for monitoring audit findings
+and their follow-up activities.
+
+## User Roles
+
+The application provides different access levels for users involved
+in the Internal Quality Audit process.
+
+### Asesor (Auditor)
+
+Manages audits and is responsible for reviewing and validating audit
+findings and monitoring follow-up activities.
+
+### KPS (Head of Study Program)
+
+Participates in the audit process and manages relevant study program
+data and findings.
+
+### Dosen (Lecturer)
+
+Handles audit findings and follow-up actions related to their
+responsibilities.
+
+### Teknisi (Technician)
+
+Handles relevant audit findings and provides follow-up actions
+when required.
+
+### Admin Prodi (Program Study Administrator)
+
+Supports the management and monitoring of audit-related activities
+within the study program.
+
+## Tech Stack
+
+### Backend
+
+- PHP 8.2
+- Laravel 12
+- Laravel Breeze
+- Livewire
+
+### Frontend
+
+- Blade
+- HTML
+- CSS
+- Tailwind CSS 4
+- JavaScript
+- Alpine.js
+- Vite
+
+### Database
+
+- MySQL
+
+### Libraries
+
+- Maatwebsite Excel
+- Laravel DomPDF
+
+### Development Tools
+
+- Git
+- GitHub
+
+## My Contribution
+
+### Mukhammad Nur Fajrin — Web Application Development
+
+Responsible for the main technical development of the application,
+including:
+
+- Designing the application structure and database relationships
+- Developing backend logic using PHP and Laravel
+- Implementing authentication and role-based access control
+- Developing audit management features
+- Developing audit finding and follow-up features
+- Implementing finding review and validation workflows
+- Developing role-specific dashboards
+- Implementing audit progress and status monitoring
+- Implementing Excel import and export functionality
+- Implementing PDF document handling
+- Developing frontend interfaces using Blade and Tailwind CSS
+- Implementing frontend interactions using JavaScript and Alpine.js
+- Testing and debugging the application
+
+### Project Collaboration
+
+**Raihan Tsaqif Athazaky**
+
+Contributed to the project through system discussions and feedback
+regarding feature design and implementation decisions, as well as
+collaboration on project documentation and presentation.
+
+## Development Context
+
+This project was developed as a final academic project for the
+D3 Information Technology Program at Politeknik Negeri Malang
+PSDKU Lumajang.
+
+The main web application development and implementation were handled
+by Mukhammad Nur Fajrin, with project collaboration involving system
+discussions, feedback, documentation, and presentation.
+
+## Dummy Data
+
+All data included in this repository is dummy data created for
+development, testing, demonstration, and portfolio purposes.
+
+The repository does not contain real student, lecturer, auditor,
+or institutional data.
+
+## Project Status
+
+This project was developed as an academic final project and is
+presented as part of a web development portfolio.
+
+## Developer
+
+**Mukhammad Nur Fajrin**
+
+Diploma III in Information Technology  
+Politeknik Negeri Malang PSDKU Lumajang
+
+GitHub: https://github.com/mnf27
