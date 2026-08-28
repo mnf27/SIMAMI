@@ -197,19 +197,9 @@ including:
 
 **Raihan Tsaqif Athazaky**
 
-Contributed to the project through system discussions and feedback
-regarding feature design and implementation decisions, as well as
-collaboration on project documentation and presentation.
-
-## Development Context
-
-This project was developed as a final academic project for the
-D3 Information Technology Program at Politeknik Negeri Malang
-PSDKU Lumajang.
-
-The main web application development and implementation were handled
-by Mukhammad Nur Fajrin, with project collaboration involving system
-discussions, feedback, documentation, and presentation.
+Contributed through system discussions and feedback regarding feature
+design and implementation decisions, as well as collaboration on
+project documentation and presentation.
 
 ## Dummy Data
 
@@ -226,9 +216,8 @@ presented as part of a web development portfolio.
 
 ## Developer
 
-**Mukhammad Nur Fajrin**
-
+**Mukhammad Nur Fajrin**  
 Diploma III in Information Technology  
 Politeknik Negeri Malang PSDKU Lumajang
 
-GitHub: https://github.com/mnf27
+- LinkedIn: https://www.linkedin.com/in/mukhammad-nur-fajrin-648659426/
